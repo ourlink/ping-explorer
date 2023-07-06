@@ -6,6 +6,15 @@
     <div class="flex flex-1">
       &copy;&nbsp;
       {{ new Date().getFullYear() }}&nbsp;
+      Hosted By&nbsp;
+      <a
+        class="link link-primary no-underline"
+        href="https://validatornode.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        >ValidatorNode</a
+      >
+      &nbsp;      
       Made With&nbsp;
       <img src="../../assets/images/heart.svg" />&nbsp;
       By&nbsp;
