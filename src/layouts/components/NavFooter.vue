@@ -16,7 +16,7 @@
       >
       &nbsp;      
       Made With&nbsp;
-      <img src="../../assets/images/heart.svg" />&nbsp;
+      <img src="../../assets/images/heart.svg" alt="Heart"/>&nbsp;
       By&nbsp;
       <a
         class="link link-primary no-underline"
