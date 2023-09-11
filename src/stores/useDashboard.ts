@@ -257,7 +257,7 @@ export const useDashboard = defineStore('dashboard', {
   state: () => {
     const favMap = JSON.parse(
       localStorage.getItem('favoriteMap') ||
-        '{"akash":true, "bitcanna":true, "comdex":true, "sentinel:true"}'
+        '{"akash":true, "bitcanna":true, "comdex":true, "sentinel":true}'
     );
     return {
       status: LoadingStatus.Empty,
