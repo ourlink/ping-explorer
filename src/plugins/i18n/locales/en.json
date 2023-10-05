@@ -232,13 +232,13 @@
     "version": "Version",
     "for_more_info": "For more infomation",
     "text_1": "Install Binary",
-    "text_1_1": "We need to install the binary first and make sure that the version is the one currently in use on mainnet",
+    "text_1_1": "You need to install the binary first and make sure that the version is the one currently in use on mainnet",
     "text_2": "Enable State Sync",
-    "text_2_1": "We can configure Tendermint to use state sync in $DAEMON_HOME/config/config.toml",
+    "text_2_1": "You can configure Tendermint to use state sync in $DAEMON_HOME/config/config.toml",
     "text_3": "Start the daemon",
     "text_3_1": "If you are resetting node, run",
     "text_3_2": "before you start the daemon",
-    "text_title_3": "To make state sync works, we can enable snapshot in $DAEMON_HOME/config/app.toml"
+    "text_title_3": "To ensure that state sync works for the network, please enable snapshots in $DAEMON_HOME/config/app.toml"
   },
   "tx": {
     "title": "Summary",
