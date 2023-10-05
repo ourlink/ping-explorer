@@ -1,8 +1,16 @@
 {
     "chain_name": "akash",
     "alias": "akash-network",
-    "api": ["https://akash-api.validatornode.com", "https://api-akash-ia.cosmosia.notional.ventures/", "https://akash-api.polkachu.com"],
-    "rpc": ["https://akash-rpc.validatornode.com:443", "https://rpc-akash-ia.cosmosia.notional.ventures:443", "https://akash-rpc.polkachu.com:443"],
+    "api": [
+        {"provider": "ValidatorNode", "address": "https://akash-api.validatornode.com"},
+        {"provider": "notional", "address": "https://api-akash-ia.cosmosia.notional.ventures/"},
+        {"provider": "polkachu", "address": "https://akash-api.polkachu.com"}
+    ],
+    "rpc": [
+        {"provider": "ValidatorNode", "address": "https://akash-rpc.validatornode.com:443"},
+        {"provider": "notional", "address": "https://rpc-akash-ia.cosmosia.notional.ventures:443"},
+        {"provider": "polkachu", "address": "https://akash-rpc.polkachu.com:443"}
+    ],
     "snapshot_provider": "",
     "sdk_version": "0.45.4",
     "coin_type": "118",

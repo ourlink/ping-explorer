@@ -1,7 +1,17 @@
 {
     "chain_name": "comdex",
-    "api": ["https://comdex-api.validatornode.com", "https://comdex-api.polkachu.com", "https://rest.comdex.one/", "https://rest-comdex.goldenratiostaking.net"],
-    "rpc": ["https://comdex-rpc.validatornode.com:443", "https://comdex-rpc.polkachu.com:443", "https://rpc.comdex.one:443", "https://rpc-comdex.goldenratiostaking.net:443"],
+    "api": [
+        {"provider": "ValidatorNode", "address": "https://comdex-api.validatornode.com"},
+        {"provider": "polkachu", "address": "https://comdex-api.polkachu.com"},
+        {"provider": "comdex", "address": "https://rest.comdex.one/"},
+        {"provider": "goldenratios", "address": "https://rest-comdex.goldenratiostaking.net"}
+    ],
+    "rpc": [
+        {"provider": "ValidatorNode", "address": "https://comdex-rpc.validatornode.com:443"},
+        {"provider": "polkachu", "address": "https://comdex-rpc.polkachu.com:443"},
+        {"provider": "comdex", "address": "https://rpc.comdex.one:443"},
+        {"provider": "goldenratios", "address": "https://rpc-comdex.goldenratiostaking.net:443"}
+    ],
     "snapshot_provider": "",
     "sdk_version": "0.45.8",
     "coin_type": "118",

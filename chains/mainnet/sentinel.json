@@ -1,7 +1,16 @@
 {
     "chain_name": "sentinel",
-    "api": ["https://sentinel-api.validatornode.com", "https://api-sentinel-ia.cosmosia.notional.ventures", "https://lcd.sentinel.co"],
-    "rpc": ["https://sentinel-rpc.validatornode.com", "https://api-sentinel-ia.cosmosia.notional.ventures:443", "https://rpc-sentinel.keplr.app:443", "https://rpc-sentinel.keplr.app:443"],
+    "api": [
+        {"provider": "ValidatorNode", "address": "https://sentinel-api.validatornode.com"},
+        {"provider": "notional", "address": "https://api-sentinel-ia.cosmosia.notional.ventures"},
+        {"provider": "sentinel", "address": "https://lcd.sentinel.co"}
+    ],
+    "rpc": [
+        {"provider": "ValidatorNode", "address": "https://sentinel-rpc.validatornode.com"},
+        {"provider": "notional", "address": "https://api-sentinel-ia.cosmosia.notional.ventures:443"},
+        {"provider": "keplr", "address": "https://rpc-sentinel.keplr.app:443"},
+        {"provider": "keplr", "address": "https://rpc-sentinel.keplr.app:443"}
+    ],
     "snapshot_provider": "",
     "sdk_version": "0.45.8",
     "coin_type": "118",
