@@ -37,7 +37,7 @@
       >
       <a
         class="link link-primary no-underline"
-        href="https://github.com/ping-pub/explorer"
+        href="https://github.com/ourlink/ping-explorer"
         target="noopener noreferrer"
         >Github</a
       >
